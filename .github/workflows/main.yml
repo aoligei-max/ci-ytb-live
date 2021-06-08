@@ -34,3 +34,6 @@ jobs:
         run: |
           sudo apt install ffmpeg
           python3 dl.py https://youtu.be/0tx-xElPSHc -o ./out.mp4
+          git add ./out.mp4
+          git commit -m "test"
+          git push
